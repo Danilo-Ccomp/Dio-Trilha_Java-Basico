@@ -22,7 +22,7 @@ public class ContaTerminal {
         scanner.close();
         
         System.out.printf("\nOlá %s, obrigado por criar uma conta em nosso banco.%n", conta.nomeCliente);
-        System.out.printf("Sua agência é %s, conta %d e seu saldo %.210f já está disponível para saque", conta.agencia, conta.numeroConta, conta.saldo);
+        System.out.printf("Sua agência é %s, conta %d e seu saldo %.2f já está disponível para saque", conta.agencia, conta.numeroConta, conta.saldo);
     }
 
 }
